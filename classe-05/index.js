@@ -1,3 +1,10 @@
-const alturaEmCm = 185;
+const alturaEmCm = 174;
 
-//seu código aqui
+
+if(alturaEmCm >= 180){
+    console.log("Legal!! Você tem a altura necessária!")
+    console.log("APROVADO");
+} else{
+    console.log("Que pena :( você não tem a altura necessária.");
+    console.log("REPROVADO");
+}
